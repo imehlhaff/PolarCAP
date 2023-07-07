@@ -5,7 +5,7 @@
 [![R-CMD-check](https://github.com/imehlhaff/PolarCAP/actions/workflows/R-CMD-check.yaml/badge.svg)](https://github.com/imehlhaff/PolarCAP/actions/workflows/R-CMD-check.yaml)
 <!-- badges: end -->
 
-Distributes data from the Polarization in Comparative Attitudes Project and provides helper functions to access the data and manipulate country names.
+Distributes data from the Polarization in Comparative Attitudes Project. Helper functions enable data retrieval in wide and tidy formats for user-defined countries and years. Provides support for case-insensitive country names in many languages.
 
 ## Installation
 
