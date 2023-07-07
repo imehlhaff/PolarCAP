@@ -1,3 +1,3 @@
-# PolarCAP 0.1.1
+# PolarCAP 1.0.0
 
 * Initial CRAN submission.

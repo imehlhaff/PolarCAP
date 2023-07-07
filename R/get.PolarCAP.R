@@ -35,8 +35,6 @@
 #'
 #' data$ideology1 <- apply(data, 1, function(x) get.PolarCAP(x[1], x[2], type = "ideology",
 #' value.only = TRUE))
-#' data <- rowwise(data) %>% mutate(ideology2 = get.PolarCAP(countries, years, type = "ideology",
-#' value.only = TRUE))
 #' data
 #'
 #' @import countrycode

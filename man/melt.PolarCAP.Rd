@@ -33,7 +33,7 @@ format, or to return a polarization estimate as a scalar, use \code{\link{get.Po
 }
 \details{
 Ideally, country names passed to \code{countries} would be ISO 3166-1 alpha-3 country codes
-(case-insensitive). However, \code{melt.PolarCAP()} will accept country names in any language or
+(case-insensitive). However, \code{melt.PolarCAP()} will accept country names in almost any language or
 format and attempt to convert them to ISO3 codes by calling \code{\link{to.ISO3}()}.
 \code{melt.PolarCAP()} will alert the user to any country names still unrecognized after this
 conversion and return results only for those which are recognized.
