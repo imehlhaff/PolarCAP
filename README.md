@@ -2,11 +2,19 @@
 # PolarCAP
 
 <!-- badges: start -->
+[![R-CMD-check](https://github.com/imehlhaff/PolarCAP/actions/workflows/R-CMD-check.yaml/badge.svg)](https://github.com/imehlhaff/PolarCAP/actions/workflows/R-CMD-check.yaml)
 <!-- badges: end -->
 
 Distributes data from the Polarization in Comparative Attitudes Project and provides helper functions to access the data and manipulate country names.
 
 ## Installation
+
+There are two ways to easily install this package in R. To install the stable version released to CRAN, install as normal:
+
+```
+install.packages("PolarCAP")
+library(PolarCAP)
+```
 
 To install the most recent development version, first ensure you have the latest version of ```devtools``` installed:
 

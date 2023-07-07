@@ -44,10 +44,8 @@
 
 get.PolarCAP <- function(countries = NA, years = NA, type = c("ideology", "affect"),
                          value.only = FALSE, include.se = FALSE) {
-  #load data
   data <- PolarCAP
 
-  #filter for desired countries and years
   if (all(is.na(countries))) {
     warning("No countries provided. Returning results for all available countries.")
     countries <- unique(data$country_code)
@@ -58,15 +56,12 @@ get.PolarCAP <- function(countries = NA, years = NA, type = c("ideology", "affec
     years <- unique(data$year)
   }
 
-  #convert countries to ISO3 country codes if necessary
   countries <- to.ISO3(countries)
 
-  #convert years to numeric if necessary
   if (!is.numeric(years)) {
     years <- as.numeric(years)
   }
 
-  #throw warnings if desired countries or years are not in dataset
   for (country in countries) {
     if (!country %in% unique(data$country_code)) {
       warning(paste("No PolarCAP data for country:", country))
@@ -79,7 +74,6 @@ get.PolarCAP <- function(countries = NA, years = NA, type = c("ideology", "affec
     }
   }
 
-  #throw error if polarization type is not recognized
   for (entry in type) {
     if (!entry %in% c("ideology", "affect")) {
       stop('type must be either "ideology", "affect", or both')
@@ -88,7 +82,6 @@ get.PolarCAP <- function(countries = NA, years = NA, type = c("ideology", "affec
 
   data_cy <- data[data$country_code %in% countries & data$year %in% years,]
 
-  #select desired polarization type
   if (include.se) {
     data_cy <- data_cy[,c("country", "country_code", "year", type, paste(type, "_se", sep = ""),
                           "notes")]
@@ -98,17 +91,14 @@ get.PolarCAP <- function(countries = NA, years = NA, type = c("ideology", "affec
     data_cy <- data_cy[,c("country", "country_code", "year", type, "notes")]
   }
 
-  #throw warning if using value.only = TRUE with both polarization types
   if (length(type) == 2 & value.only) {
     warning("Using value.only = TRUE with both types of polarization. Output will be vector, not scalar.")
   }
 
-  #throw warning if using value.only = TRUE with include.se = TRUE
   if (value.only & include.se) {
     warning("Using value.only = TRUE with include.se = TRUE. Output will not include standard errors. Set value.only = FALSE to obtain a data frame with estimates and standard errors.")
   }
 
-  #return desired output
   if (value.only) {
     out <- as.numeric(unlist(data_cy[,c(type)]))
     out

@@ -30,14 +30,12 @@
 
 melt.PolarCAP <- function(countries = NA, years = NA, type = c("ideology", "affect"),
                           include.se = FALSE) {
-  #get output from get.PolarCAP
+
   data <- get.PolarCAP(countries, years, type, include.se = TRUE)
 
-  #reshape output for estimates
   data_est <- data[,c("country", "country_code", "year", type, "notes")]
   data_est <- pivot_longer(data_est, cols = all_of(type), names_to = "type", values_to = "estimate")
 
-  #reshape output for standard errors if necessary and cbind with estimates
   if (include.se) {
     data_se <- data[,c("country", "country_code", "year", paste(type, "_se", sep = ""))]
     data_se <- pivot_longer(data_se, cols = all_of(paste(type, "_se", sep = "")), names_to = "type",
@@ -45,12 +43,10 @@ melt.PolarCAP <- function(countries = NA, years = NA, type = c("ideology", "affe
     out <- cbind(data_est, data_se)
   }
 
-  #otherwise, rename estimates
   else {
     out <- data_est
   }
 
-  #reorder variables
   if (include.se) {
     out <- out[,c("country", "country_code", "year", "type", "estimate", "se", "notes")]
   }
