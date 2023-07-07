@@ -4,7 +4,7 @@
 <!-- badges: start -->
 <!-- badges: end -->
 
-Distributes PolarCAP data and provides helper functions to access the data and manipulate country names.
+Distributes data from the Polarization in Comparative Attitudes Project and provides helper functions to access the data and manipulate country names.
 
 ## Installation
 

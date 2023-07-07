@@ -1,9 +1,9 @@
 Package: PolarCAP
-Title: Retrieve PolarCAP Data
-Version: 0.1.0
+Title: Polarization in Comparative Attitudes Project
+Version: 0.1.1
 Author: Isaac Mehlhaff <isaac.mehlhaff@gmail.com>
 Maintainer: Isaac Mehlhaff <isaac.mehlhaff@gmail.com>
-Description: Distributes PolarCAP data and provides helper functions to access the data and manipulate country names.
+Description: Distributes data from the Polarization in Comparative Attitudes Project and provides helper functions to access the data and manipulate country names.
 License: CC0
 Encoding: UTF-8
 Roxygen: list(markdown = TRUE)
