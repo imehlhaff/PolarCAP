@@ -2,7 +2,7 @@ Package: PolarCAP
 Title: Access the Polarization in Comparative Attitudes Project
 Version: 1.0.0
 Authors@R: person("Isaac", "Mehlhaff", email = "isaac.mehlhaff@gmail.com", role = c("aut", "cre", "cph"), comment = c(ORCID = "0000-0001-5776-005X"))
-Description: Distributes data from the Polarization in Comparative Attitudes Project. Helper 
+Description: Distributes data from the Polarization in Comparative Attitudes Project. Helper
     functions enable data retrieval in wide and tidy formats for user-defined
     countries and years. Provides support for case-insensitive country names in many
     languages.
