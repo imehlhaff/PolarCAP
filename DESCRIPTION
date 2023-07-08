@@ -5,7 +5,7 @@ Authors@R: person("Isaac", "Mehlhaff", email = "isaac.mehlhaff@gmail.com", role 
 Description: Distributes data from the Polarization in Comparative Attitudes Project. Helper
     functions enable data retrieval in wide and tidy formats for user-defined
     countries and years. Provides support for case-insensitive country names in many
-    languages.
+    languages. Mehlhaff (2022) <https://imehlhaff.net/files/Polarization%20and%20Democracy.pdf>.
 License: CC0
 Encoding: UTF-8
 Roxygen: list(markdown = TRUE)
