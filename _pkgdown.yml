@@ -1,0 +1,19 @@
+url: http://imehlhaff.net/PolarCAP/
+template:
+  bootstrap: 5
+  bslib:
+    primary: "#800000"
+home:
+  title: Polarization in Comparative Attitudes Project
+  strip_header: true
+authors:
+  Isaac Mehlhaff:
+    href: "http://imehlhaff.net"
+navbar:
+  structure:
+    left: [intro, reference, news]
+    right: [search, github]
+  components:
+    news:
+      text: Change Log
+      href: http://imehlhaff.net/PolarCAP/news/index.html
