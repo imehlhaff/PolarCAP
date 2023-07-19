@@ -3,8 +3,6 @@ template:
   bootstrap: 5
   bslib:
     primary: "#800000"
-home:
-  title: Polarization in Comparative Attitudes Project
 authors:
   Isaac Mehlhaff:
     href: "http://imehlhaff.net"
