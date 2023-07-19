@@ -5,7 +5,6 @@ template:
     primary: "#800000"
 home:
   title: Polarization in Comparative Attitudes Project
-  strip_header: true
 authors:
   Isaac Mehlhaff:
     href: "http://imehlhaff.net"
