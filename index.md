@@ -1,15 +1,16 @@
-# PolarCAP
+# Polarization in Comparative Attitudes Project
 
 <!-- badges: start -->
 [![R-CMD-check](https://github.com/imehlhaff/PolarCAP/actions/workflows/R-CMD-check.yaml/badge.svg)](https://github.com/imehlhaff/PolarCAP/actions/workflows/R-CMD-check.yaml)
 [![CRAN status](https://www.r-pkg.org/badges/version/PolarCAP)](https://CRAN.R-project.org/package=PolarCAP)
 [![Downloads](https://cranlogs.r-pkg.org/badges/grand-total/PolarCAP)](https://cran.rstudio.com/web/packages/PolarCAP/index.html)
 [![Lifecycle: experimental](https://img.shields.io/badge/lifecycle-experimental-orange.svg)](https://lifecycle.r-lib.org/articles/stages.html#experimental)
-<!-- [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.290683.svg)](https://doi.org/10.5281/zenodo.290683) -->                                                                                          [![License: CC0](https://img.shields.io/cran/l/PolarCAP)](http://imehlhaff.net/PolarCAP/LICENSE.html)
+<!-- [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.290683.svg)](https://doi.org/10.5281/zenodo.290683) -->                                                                                          
+[![License: CC0](https://img.shields.io/cran/l/PolarCAP)](http://imehlhaff.net/PolarCAP/LICENSE.html)
 <!-- [![Codecov test coverage](https://codecov.io/gh/imehlhaff/PolarCAP/branch/master/graph/badge.svg)](https://app.codecov.io/gh/imehlhaff/PolarCAP?branch=master) -->
 <!-- badges: end -->
   
-Distributes data from the Polarization in Comparative Attitudes Project. Helper functions enable data retrieval in wide and tidy formats for user-defined countries and years. Provides support for case-insensitive country names in many languages.
+Welcome to the Polarization in Comparative Attitudes Project (PolarCAP)! This site describes the R package ```PolarCAP```---the main portal to PolarCAP data---and provides access to data files in a variety of formats for users not familiar with R. The short vignettes below explain how to retrieve data using ```PolarCAP``` and the links above provide access to function reference manuals, a record of changes to the package, downloadable data files, and the R package ```CPC```, which was used to generate the final PolarCAP estimates. For detailed information on the estimation of PolarCAP data, please see the book manuscript cited at the bottom of this page.
 
 ## Installation
 
