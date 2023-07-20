@@ -8,7 +8,7 @@ authors:
     href: "http://imehlhaff.net"
 navbar:
   structure:
-    left: [intro, reference, data, news]
+    left: [intro, reference, data, news, cpc]
     right: [search, github]
   components:
     data:
@@ -17,3 +17,6 @@ navbar:
     news:
       text: Change Log
       href: http://imehlhaff.net/PolarCAP/news/index.html
+    cpc:
+      text: CPC
+      href: http://imehlhaff.net/CPC/
