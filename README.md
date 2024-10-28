@@ -6,8 +6,8 @@
 [![CRAN status](https://www.r-pkg.org/badges/version/PolarCAP)](https://CRAN.R-project.org/package=PolarCAP)
 [![Downloads](https://cranlogs.r-pkg.org/badges/grand-total/PolarCAP)](https://cran.r-project.org/package=PolarCAP)
 [![Lifecycle: stable](https://img.shields.io/badge/lifecycle-stable-green.svg)](https://lifecycle.r-lib.org/articles/stages.html#stable)
-<!-- [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.290683.svg)](https://doi.org/10.5281/zenodo.290683) -->
 [![License: CC0](https://img.shields.io/cran/l/PolarCAP)](https://imehlhaff.net/PolarCAP/LICENSE.html)
+<!-- [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.290683.svg)](https://doi.org/10.5281/zenodo.290683) -->
 <!-- [![Codecov test coverage](https://codecov.io/gh/imehlhaff/PolarCAP/branch/master/graph/badge.svg)](https://app.codecov.io/gh/imehlhaff/PolarCAP?branch=master) -->
 <!-- badges: end -->
 
