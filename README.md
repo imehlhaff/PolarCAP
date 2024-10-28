@@ -3,6 +3,12 @@
 
 <!-- badges: start -->
 [![R-CMD-check](https://github.com/imehlhaff/PolarCAP/actions/workflows/R-CMD-check.yaml/badge.svg)](https://github.com/imehlhaff/PolarCAP/actions/workflows/R-CMD-check.yaml)
+[![CRAN status](https://www.r-pkg.org/badges/version/CPC)](https://CRAN.R-project.org/package=PolarCAP)
+[![Downloads](https://cranlogs.r-pkg.org/badges/grand-total/CPC)](https://cran.r-project.org/package=PolarCAP)
+[![Lifecycle: stable](https://img.shields.io/badge/lifecycle-stable-green.svg)](https://lifecycle.r-lib.org/articles/stages.html#stable)
+<!-- [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.290683.svg)](https://doi.org/10.5281/zenodo.290683) -->
+[![License: CC0](https://img.shields.io/cran/l/PolarCAP)](https://imehlhaff.net/PolarCAP/LICENSE.html)
+<!-- [![Codecov test coverage](https://codecov.io/gh/imehlhaff/PolarCAP/branch/master/graph/badge.svg)](https://app.codecov.io/gh/imehlhaff/PolarCAP?branch=master) -->
 <!-- badges: end -->
 
 Distributes data from the Polarization in Comparative Attitudes Project. Helper functions enable data retrieval in wide and tidy formats for user-defined countries and years. Provides support for case-insensitive country names in many languages.
@@ -33,18 +39,17 @@ devtools::install_github("imehlhaff/PolarCAP")
 
 To cite ```PolarCAP``` in publications and working papers, please use:
 
-Mehlhaff, Isaac D. *Mass Polarization across Time and Space*, book manuscript (August 2023).
+Mehlhaff, Isaac D. *Mass Polarization across Time and Space*. New York: Cambridge University Press (forthcoming).
 
 For BibTeX users:
 
 ```
-@unpublished{Mehlhaff2023,
-  type = {Book {{Manuscript}}},
+@book{Mehlhaffbook,
   title = {Mass {{Polarization}} across {{Time}} and {{Space}}},
   author = {Mehlhaff, Isaac D.},
-  year = {2023},
-  month = aug,
-  address = {{The University of North Carolina at Chapel Hill}}
+  note = {forthcoming},
+  publisher = {{Cambridge University Press}},
+  location = {{New York}}
 }
 ```
 
