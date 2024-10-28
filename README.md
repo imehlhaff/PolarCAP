@@ -11,6 +11,8 @@
 <!-- [![Codecov test coverage](https://codecov.io/gh/imehlhaff/PolarCAP/branch/master/graph/badge.svg)](https://app.codecov.io/gh/imehlhaff/PolarCAP?branch=master) -->
 <!-- badges: end -->
 
+<a href="https://imehlhaff.net/PolarCAP/"><img src="man/figures/logo.png" align="right" height="139" alt="PolarCAP website" /></a>
+
 Distributes data from the Polarization in Comparative Attitudes Project. Helper functions enable data retrieval in wide and tidy formats for user-defined countries and years. Provides support for case-insensitive country names in many languages.
 
 ## Installation
