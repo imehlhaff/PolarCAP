@@ -1,5 +1,5 @@
 
-# PolarCAP
+# PolarCAP: Access the Polarization in Comparative Attitudes Project
 
 <!-- badges: start -->
 [![R-CMD-check](https://github.com/imehlhaff/PolarCAP/actions/workflows/R-CMD-check.yaml/badge.svg)](https://github.com/imehlhaff/PolarCAP/actions/workflows/R-CMD-check.yaml)
