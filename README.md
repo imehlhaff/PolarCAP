@@ -41,7 +41,7 @@ devtools::install_github("imehlhaff/PolarCAP")
 
 To cite ```PolarCAP``` in publications and working papers, please use:
 
-Mehlhaff, Isaac D. *Mass Polarization across Time and Space*. New York: Cambridge University Press (forthcoming).
+Mehlhaff, Isaac D. *Mass Polarization across Time and Space*. New York: Cambridge University Press (2025).
 
 For BibTeX users:
 
