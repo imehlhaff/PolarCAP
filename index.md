@@ -4,7 +4,7 @@
 [![R-CMD-check](https://github.com/imehlhaff/PolarCAP/actions/workflows/R-CMD-check.yaml/badge.svg)](https://github.com/imehlhaff/PolarCAP/actions/workflows/R-CMD-check.yaml)
 [![CRAN status](https://www.r-pkg.org/badges/version/PolarCAP)](https://CRAN.R-project.org/package=PolarCAP)
 [![Downloads](https://cranlogs.r-pkg.org/badges/grand-total/PolarCAP)](https://cran.rstudio.com/web/packages/PolarCAP/index.html)
-[![Lifecycle: experimental](https://img.shields.io/badge/lifecycle-experimental-orange.svg)](https://lifecycle.r-lib.org/articles/stages.html#experimental)
+[![Lifecycle: stable](https://img.shields.io/badge/lifecycle-stable-green.svg)](https://lifecycle.r-lib.org/articles/stages.html#stable)
 <!-- [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.290683.svg)](https://doi.org/10.5281/zenodo.290683) -->                                                                                          
 [![License: CC0](https://img.shields.io/cran/l/PolarCAP)](http://imehlhaff.net/PolarCAP/LICENSE.html)
 <!-- [![Codecov test coverage](https://codecov.io/gh/imehlhaff/PolarCAP/branch/master/graph/badge.svg)](https://app.codecov.io/gh/imehlhaff/PolarCAP?branch=master) -->
