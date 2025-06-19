@@ -84,17 +84,17 @@ get.PolarCAP(countries = c("aus", "MEX", "Stati Uniti"), years = 2019, type = "i
 
 To cite ```PolarCAP``` in publications and working papers, please use:
   
-Mehlhaff, Isaac D. *Mass Polarization across Time and Space*, book manuscript (August 2023).
+Mehlhaff, Isaac D. *Mass Polarization across Time and Space*. New York: Cambridge University Press (2025).
 
 For BibTeX users:
   
 ```
-@unpublished{Mehlhaff2023,
-  type = {Book {{Manuscript}}},
+@book{Mehlhaffbook,
   title = {Mass {{Polarization}} across {{Time}} and {{Space}}},
   author = {Mehlhaff, Isaac D.},
-  year = {2023},
-  month = aug,
-  address = {{The University of North Carolina at Chapel Hill}}
+  year = {2025},
+  publisher = {{Cambridge University Press}},
+  location = {{New York}},
+  doi = {https://doi.org/10.1017/9781009350662}
 }
 ```
