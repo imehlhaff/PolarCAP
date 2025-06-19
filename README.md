@@ -49,9 +49,10 @@ For BibTeX users:
 @book{Mehlhaffbook,
   title = {Mass {{Polarization}} across {{Time}} and {{Space}}},
   author = {Mehlhaff, Isaac D.},
-  note = {forthcoming},
+  year = {2025},
   publisher = {{Cambridge University Press}},
-  location = {{New York}}
+  location = {{New York}},
+  doi = {https://doi.org/10.1017/9781009350662}
 }
 ```
 
